@@ -1,0 +1,5 @@
+openai
+json
+tkinter
+requests
+pyperclip
