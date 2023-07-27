@@ -1,7 +1,7 @@
 import openai
 import json
-openai.api_key = ""
-file_name="ADBC_call.mp3"
+openai.api_key = "xxx"
+file_name="xxx.mp3"
 audio_file = open(file_name, "rb")
 transcript = openai.Audio.transcribe("whisper-1", audio_file)
 text=json.loads(str(transcript))["text"]
